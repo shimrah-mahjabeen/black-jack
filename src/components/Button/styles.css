@@ -1,0 +1,20 @@
+.button {
+  padding: 0.5rem;
+  width: 8rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  background-color: #04aa6d;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  transition: box-shadow 0.3s ease;
+}
+
+.button:hover {
+  box-shadow: -2px 1px 10px 0px rgba(0, 0, 0, 0.56);
+}
+
+.resetButton {
+  background-color: #e53939;
+}

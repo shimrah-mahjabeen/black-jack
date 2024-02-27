@@ -1,0 +1,26 @@
+.cards-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.cards-heading {
+  margin: 2rem 0;
+  color: #fff;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+}
+
+.card-img {
+  width: 7rem;
+}
